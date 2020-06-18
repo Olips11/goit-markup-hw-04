@@ -1,0 +1,374 @@
+/* основной цвет текста #212121 */
+/* основной вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* шапка #FFFFFF */
+/* тело #E5E5E5*/
+/* команда вторичный #F5F4FA */
+/* подвал #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --title-text-color-white: #ffffff;
+}
+
+.page {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  margin-top: 0px;
+}
+
+/* Web Studio */
+
+/* header шапка сайта (Web Studio and Portfolio) */
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background: #ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+}
+
+/* Logo */
+
+.header-logo {
+  color: #212121;
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: #2196f3;
+}
+
+.header-logo-web {
+  color: #2196f3;
+}
+
+/* header-site-nav */
+
+.header-site-nav {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-site-nav:hover,
+.header-site-nav:focus {
+  color: #2196f3;
+}
+
+.header-site-nav.current {
+  color: #2196f3;
+}
+
+/* header-adress */
+
+.header-adress {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-adress:hover,
+.header-adress:focus {
+  color: #2196f3;
+}
+
+/* banner */
+
+.section-banner {
+  background: rgba(47, 48, 58, 0.8);
+  margin-bottom: 98px;
+}
+
+.banner {
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.banner-title {
+  width: 750px;
+  min-height: 120px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* кнопка banner */
+
+.banner-button {
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #2196f3;
+  border: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+  color: #2196f3;
+  background: #ffffff;
+}
+
+/* section-work преимущества */
+
+.img-work {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.section-work {
+  margin-bottom: 94px;
+}
+
+.section-work-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-work-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* section-occupation род занятий */
+
+.section-occupation {
+  margin-bottom: 94px;
+}
+
+.occupation-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-occupation-title {
+  width: 370px;
+  height: 70px;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* section-team команда */
+
+.section-team {
+  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+
+.team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.section-team-text {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* клиенты */
+
+.section-customers {
+  margin-bottom: 94px;
+}
+
+.customers {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* footer (Web Studio and Portfolio) */
+
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background: #2f303a;
+}
+
+.logo-title {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-mail-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer-basement {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+/* Portfolio */
+
+/* header шапка сайта (Web Studio and Portfolio) */
+
+/* фильтер кнопки*/
+
+.section-filter {
+  margin-top: 94px;
+}
+
+.filter-button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  height: 38px;
+  color: #212121;
+  background: #f5f4fa;
+  border: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.filter-button.current {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/* проекты */
+
+.section-projects {
+  margin-bottom: 94px;
+}
+
+.projects-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-resource {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.projects-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+/* footer (Web Studio and Portfolio) */
