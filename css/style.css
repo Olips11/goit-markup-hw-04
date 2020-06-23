@@ -614,9 +614,17 @@
   display: inline-block;
   width: 44px;
   height: 44px;
+  margin-right: 8px;
+  background-color: rgba(47, 48, 58, 0.8);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 50%;
+  background-size: 20px;
+}
+
+.footer-soc-list .list-iteam:not(:last-child) {
+  margin-right: 8px;
 }
 
 .footer-soc-list .instagram {
