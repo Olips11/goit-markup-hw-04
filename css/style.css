@@ -471,16 +471,33 @@
 .soc-list {
   display: flex;
   align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
-.instagram {
+.soc-list .list-iteam {
   display: inline-block;
   width: 44px;
   height: 44px;
-  background-image: url(../img/Section3/soc/instagram.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.list-iteam.instagram {
+  background-image: url(../img/Section3/soc/instagram.svg);
+}
+
+.list-iteam.twitter {
+  background-image: url(../img/Section3/soc/twitter.svg);
+}
+
+.list-iteam.facebook {
+  background-image: url(../img/Section3/soc/facebook.svg);
+}
+
+.list-iteam.linkedin {
+  background-image: url(../img/Section3/soc/linkedin.svg);
 }
 
 /* клиенты */
@@ -589,6 +606,35 @@
   padding-right: 94px;
 }
 
+.footer-soc-list {
+  display: flex;
+}
+
+.footer-soc-list .list-iteam {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-soc-list.instagram {
+  background-image: url(../img/Footer/Soc/instagram.svg);
+}
+
+.footer-soc-list.twitter {
+  background-image: url(../img/Footer/Soc/twitter.svg);
+}
+
+.footer-soc-list.facebook {
+  background-image: url(../img/Footer/Soc/facebook.svg);
+}
+
+.footer-soc-list.linkedin {
+  background-image: url(../img/Footer/Soc/linkedin.svg);
+}
+
 .button-icon {
   margin-left: 10px;
 }
@@ -613,109 +659,88 @@
 
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.4);
-
   width: 1170px;
   text-align: center;
   font-size: 12px;
 }
-
-/* Portfolio */
-
-/* header шапка сайта (Web Studio and Portfolio) */
-
-/* фильтер кнопки*/
+  color: #fffff
+  font-family: Roboto;
+  font-weight: bold;
+  font-
+  font-size: 14px;
 
 .section-filter {
   margin-top: 94px;
 }
-
 .invisible-heading {
   display: none;
 }
-
 .section-filter .list {
   display: flex;
   justify-content: center;
 }
-
 .button-list .item:not(:last-child) {
   margin-right: 8px;
 }
-
 .filter-button {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
   height: 38px;
-
   color: #212121;
   background: #f5f4fa;
-
   border: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+
   line-height: 1.62;
 }
-
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
   background: #2196f3;
 }
-
 .filter-button.current {
   color: #ffffff;
   background: #2196f3;
 }
-
-/* проекты */
-
+  min-width:
 .section-projects {
   margin-top: 50px;
   margin-bottom: 94px;
 }
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
 }
-
 .portfolio-card {
   padding-bottom: 20px;
   background-color: #ffffff;
-
   border-radius: 0px 0px 4px 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
-
 .projects-list .item {
   display: block;
   margin-bottom: 30px;
   width: calc((100% - 60px) / 3);
 }
-
 .projects-list .item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
 .projects-list .item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-
 .portfolio-link {
   text-decoration: none;
 }
-
 .projects-title {
   margin-top: 20px;
   margin-bottom: 4px;
   margin-left: 20px;
-
   color: #212121;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -724,27 +749,24 @@
   letter-spacing: 0.06em;
   text-decoration: none;
 }
-
 .projects-resource {
   margin-top: 0px;
   margin-bottom: 20px;
   margin-left: 20px;
-
   color: #757575;
-
   font-size: 16px;
   line-height: 1.87;
 }
-
 .projects-text {
   display: none;
   margin-top: 0px;
+
   margin-bottom: 0px;
-
   color: #ffffff;
-
   font-size: 18px;
   line-height: 1.55;
 }
+  text-decoration: none;
+}
 
-/* footer (Web Studio and Portfolio) */
+.projects-r
