@@ -17,36 +17,45 @@
   <body class="page">
     <!-- шапка сайта -->
     <header class="page-header">
-      <div class="container">
-        <nav>
-          <a href="./index.html" class="header-logo">
-            <span class="header-logo-web">Web</span> Studio
-          </a>
-          <ul class="site-nav list">
-            <li><a href="./index.html" class="header-site-nav">Студия</a></li>
-            <li>
-              <a href="./portfolio.html" class="header-site-nav current"
-                >Портфолио
+      <nav class="container main-nav">
+        <a href="./index.html" class="header-logo">
+          <span class="header-logo-web">Web</span> Studio
+        </a>
+        <ul class="site-nav list">
+          <li class="item">
+            <a href="./index.html" class="header-site-nav">Студия</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="header-site-nav current"
+              >Портфолио</a
+            >
+          </li>
+          <li class="item">
+            <a href="" class="header-site-nav">Контакты</a>
+          </li>
+        </ul>
+
+        <address class="address-nav">
+          <ul class="address-nav list">
+            <li class="item">
+              <a class="address-mail link" href="mailto:info@devstudio.com">
+                <!-- <span> -->
+                <!-- <img src="./img/address/mail.svg" alt="mail" /> -->
+                info@devstudio.com
+                <!-- </span> -->
               </a>
             </li>
-            <li><a href="" class="header-site-nav">Контакты</a></li>
+            <li class="item">
+              <a class="address-tel link" href="tel:+380961111111">
+                <!-- <span> -->
+                <!-- <img src="./img/address/phone.svg" alt="phone" />  -->
+                +38 096 111 11 11
+                <!-- </span> -->
+              </a>
+            </li>
           </ul>
-          <address>
-            <a href="mailto:info@devstudio.com">
-              <span class="header-adress">
-                <img src="./img/address/mail.svg" alt="mail" />
-                info@devstudio.com
-              </span>
-            </a>
-            <a href="tel:+380961111111">
-              <span class="header-adress">
-                <img src="./img/address/phone.svg" alt="phone" /> +38 096 111 11
-                11
-              </span>
-            </a>
-          </address>
-        </nav>
-      </div>
+        </address>
+      </nav>
     </header>
     <!-- портфолио -->
     <main>
@@ -54,15 +63,19 @@
       <section class="section-filter">
         <div class="container">
           <h1 class="invisible-heading">Портфолио</h1>
-          <ul class="list">
-            <li><button type="button" class="filter-button">Все</button></li>
-            <li>
+          <ul class="button-list list">
+            <li class="item">
+              <button type="button" class="filter-button">Все</button>
+            </li>
+            <li class="item">
               <button type="button" class="filter-button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="filter-button">Приложения</button>
             </li>
-            <li><button type="button" class="filter-button">Дизайн</button></li>
+            <li class="item">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
             <li>
               <button type="button" class="filter-button">Маркетинг</button>
             </li>
@@ -73,10 +86,15 @@
       <section class="section-projects">
         <div class="container">
           <h2 class="invisible-heading">Проекты</h2>
-          <ul class="list">
-            <li>
-              <a href="">
-                <img src="./img/Portfolio/img1.svg" width="370" alt="" />
+          <ul class="projects-list list">
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link">
+                <img
+                  src="./img/Portfolio/img1.svg"
+                  class="portfolio-img"
+                  width="370"
+                  alt=""
+                />
                 <h3 class="projects-title">Технокряк</h3>
                 <p class="projects-resource">Веб-сайт</p>
                 <p class="projects-text">
@@ -86,8 +104,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link">
                 <img src="./img/Portfolio/img2.svg" width="370" alt="" />
                 <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
                 <p class="projects-resource">Дизайн</p>
@@ -98,15 +116,15 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img3.svg" width="370" alt="" />
                 <h3 class="projects-title">Ресторан Seafood</h3>
                 <p class="projects-resource">Приложение</p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img4.svg" width="370" alt="" />
                 <h3 class="projects-title">Проект Prime</h3>
                 <p class="projects-resource">Маркетинг</p>
@@ -117,8 +135,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img5.svg" width="370" alt="" />
                 <h3 class="projects-title">Проект Boxes</h3>
                 <p class="projects-resource">Приложение</p>
@@ -129,8 +147,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img6.svg" width="370" alt="" />
                 <h3 class="projects-title">Inspiration has no Borders</h3>
                 <p class="projects-resource">Веб-сайт</p>
@@ -141,8 +159,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img7.svg" width="370" alt="" />
                 <h3 class="projects-title">Издание Limited Edition</h3>
                 <p class="projects-resource">Дизайн</p>
@@ -153,8 +171,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img8.svg" width="370" alt="" />
                 <h3 class="projects-title">Проект LAB</h3>
                 <p class="projects-resource">Маркетинг</p>
@@ -165,8 +183,8 @@
                 </p>
               </a>
             </li>
-            <li>
-              <a href=""
+            <li class="portfolio-card item">
+              <a href="" class="portfolio-link"
                 ><img src="./img/Portfolio/img9.svg" width="370" alt="" />
                 <h3 class="projects-title">Growing Business</h3>
                 <p class="projects-resource">Приложение</p>
@@ -183,32 +201,49 @@
     </main>
 
     <footer class="section-footer">
-      <a href="" class="logo-title">
-        <span class="header-logo-web">Web</span> Studio
-      </a>
-      <address>
-        <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@devstudio.com" class="footer-mail-tel"
-          >info@devstudio.com
-        </a>
-        <a href="tel:+380961111111" class="footer-mail-tel"
-          >+38 096 111 11 11
-        </a>
-      </address>
-      <h2 class="footer-title">присоединяйтесь</h2>
-      <ul class="list">
-        <li><a href="">instagram</a></li>
-        <li><a href="">twitter</a></li>
-        <li><a href="">facebook</a></li>
-        <li><a href="">linkedin</a></li>
-      </ul>
-      <h2 class="footer-title">Подпишитесь на рассылку</h2>
-      <div>
-        <button type="button" class="banner-button">
-          Подписаться <img src="./img/Footer/iconsend.svg" alt="" />
-        </button>
+      <div class="footer-container">
+        <div class="block-address">
+          <a href="" class="logo-title">
+            <span class="header-logo-web">Web</span> Studio
+          </a>
+          <div class="address">
+            <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="mail-tel list">
+              <li class="mail">
+                <a href="mailto:info@devstudio.com" class="footer-mail-tel"
+                  >info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="footer-mail-tel"
+                  >+38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="block-soc">
+          <h2 class="footer-title">присоединяйтесь</h2>
+          <ul class="list">
+            <li><a href="">instagram</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">facebook</a></li>
+            <li><a href="">linkedin</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h2 class="footer-title">Подпишитесь на рассылку</h2>
+          <div>
+            <button type="button" class="banner-button">
+              Подписаться
+              <img src="./img/Footer/iconsend.svg" class="button-icon" alt="" />
+            </button>
+          </div>
+        </div>
       </div>
-      <p class="footer-basement">2020 | Developed by GoIT Students</p>
+      <div>
+        <p class="footer-basement">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
