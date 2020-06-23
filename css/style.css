@@ -468,6 +468,21 @@
   text-align: center;
 }
 
+.soc-list {
+  display: flex;
+  align-items: center;
+}
+
+.instagram {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../img/Section3/soc/instagram.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* клиенты */
 
 .section-customers {
