@@ -479,9 +479,11 @@
   display: inline-block;
   width: 44px;
   height: 44px;
-  background-size: contain;
+  margin-right: 10px;
+  border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 20px;
 }
 
 .list-iteam.instagram {
@@ -614,16 +616,12 @@
   display: inline-block;
   width: 44px;
   height: 44px;
-  margin-right: 8px;
+  margin-right: 10px;
   background-color: rgba(80, 82, 97, 0.8);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
   background-size: 20px;
-}
-
-.footer-soc-list .list-iteam:not(:last-child) {
-  margin-right: 8px;
 }
 
 .footer-soc-list .list-iteam:hover {
