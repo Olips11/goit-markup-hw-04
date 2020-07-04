@@ -31,6 +31,10 @@ img {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 /* Web Studio */
 
 /* header шапка сайта (Web Studio and Portfolio) */
@@ -218,7 +222,7 @@ img {
 
   background: rgba(47, 48, 58, 0.8); */
 
-  margin-bottom: 98px;
+  /* padding-bottom: 98px; */
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -342,7 +346,8 @@ img {
 }
 
 .section-work {
-  margin-bottom: 94px;
+  padding-top: 98px;
+  padding-bottom: 94px;
 }
 
 .work-list {
@@ -433,7 +438,7 @@ img {
 /* section-team команда */
 
 .section-team {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -572,7 +577,8 @@ img {
 /* клиенты */
 
 .section-customers {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .customers {
