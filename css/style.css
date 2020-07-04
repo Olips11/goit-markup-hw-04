@@ -44,7 +44,7 @@
   width: 1200px;
 
   /* убрать */
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .main-nav {
   display: flex;
@@ -83,7 +83,7 @@
   /* margin-right: 50px; */
 
   /* убоать */
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .site-nav .item:not(:last-child) {
@@ -128,7 +128,7 @@
 
 .address-nav .item {
   /* убрать */
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .address-nav .item:not(:last-child) {
@@ -347,7 +347,7 @@
 
 .work-list .item {
   /* убрать */
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .work-list .item:not(:last-child) {
@@ -398,7 +398,7 @@
 
 .occupation-list .item {
   /* убрать */
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .occupation-list .item:not(:last-child) {
