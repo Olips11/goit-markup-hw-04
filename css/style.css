@@ -20,6 +20,10 @@
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
   margin-top: 0px;
@@ -379,7 +383,7 @@
 /* section-occupation род занятий */
 
 .section-occupation {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .occupation-title {
@@ -406,9 +410,12 @@
 }
 
 .section-occupation-title {
-  margin-top: 0px;
+  /* margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 0px;
+  margin-right: 0px; */
+  margin: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   width: 370px;
   height: 70px;
 
@@ -419,6 +426,7 @@
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -502,8 +510,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 /* .soc-list .list-iteam {
@@ -618,22 +624,23 @@
 /* footer (Web Studio and Portfolio) */
 
 .section-footer {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 0px;
-  height: 252px;
+  /* height: 252px; */
 
   background: #2f303a;
 }
 
 .footer-container {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  height: 130px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 1200px; */
+  /* height: 130px; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding-bottom: 28px;
+  padding-top: 45px;
 }
 
 .logo-title {
@@ -742,7 +749,7 @@
 }
 
 .footer-basement {
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-bottom: 0px;
   margin-top: 30px;
   margin-bottom: 0px;
@@ -754,7 +761,17 @@
 
   width: 1170px;
   text-align: center;
+  font-size: 12px; */
+
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: normal;
   font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* Portfolio */
@@ -764,7 +781,7 @@
 /* фильтер кнопки*/
 
 .section-filter {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .invisible-heading {
@@ -812,8 +829,8 @@
 /* проекты */
 
 .section-projects {
-  margin-top: 50px;
-  margin-bottom: 94px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .projects-list {
@@ -822,9 +839,18 @@
 }
 
 .portfolio-card {
-  padding-bottom: 20px;
-  background-color: #ffffff;
+  /* padding-bottom: 20px; */
 
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+
+  /* border-radius: 0px 0px 4px 4px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12); */
+}
+
+.portfolio-card:hover {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
