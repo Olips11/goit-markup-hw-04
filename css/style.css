@@ -322,8 +322,9 @@ p {
   height: 120px;
   border-radius: 4px;
   content: '';
+
   background: #f5f4fa;
-  background-size: contain;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
